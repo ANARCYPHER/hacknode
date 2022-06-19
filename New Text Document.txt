@@ -1,0 +1,90 @@
+Microsoft Windows [Version 10.0.19043.1706]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\skull>cd desktop
+
+C:\Users\skull\Desktop>mkdir hacknode
+
+C:\Users\skull\Desktop>cd hacknode
+
+C:\Users\skull\Desktop\hacknode>npm install -g express-generator
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+
+added 10 packages, and audited 11 packages in 8s
+
+3 vulnerabilities (1 moderate, 2 critical)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\skull\Desktop\hacknode>npx express --view=ejs
+
+   create : public\
+   create : public\javascripts\
+   create : public\images\
+   create : public\stylesheets\
+   create : public\stylesheets\style.css
+   create : routes\
+   create : routes\index.js
+   create : routes\users.js
+   create : views\
+   create : views\error.ejs
+   create : views\index.ejs
+   create : app.js
+   create : package.json
+   create : bin\
+   create : bin\www
+
+   install dependencies:
+     > npm install
+
+   run the app:
+     > SET DEBUG=hacknode:* & npm start
+
+
+C:\Users\skull\Desktop\hacknode>npm install
+
+added 54 packages, and audited 55 packages in 17s
+
+1 critical severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\skull\Desktop\hacknode>npm install mysql
+
+added 9 packages, and audited 64 packages in 5s
+
+1 critical severity vulnerability
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\skull\Desktop\hacknode>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 8CE3-55AB
+
+ Directory of C:\Users\skull\Desktop\hacknode
+
+06/13/2022  12:27 PM    <DIR>          .
+06/13/2022  12:27 PM    <DIR>          ..
+06/13/2022  12:26 PM             1,074 app.js
+06/13/2022  12:26 PM    <DIR>          bin
+06/13/2022  12:28 PM    <DIR>          node_modules
+06/13/2022  12:28 PM            42,666 package-lock.json
+06/13/2022  12:28 PM               318 package.json
+06/13/2022  12:26 PM    <DIR>          public
+06/13/2022  12:26 PM    <DIR>          routes
+06/13/2022  12:26 PM    <DIR>          views
+               3 File(s)         44,058 bytes
+               7 Dir(s)  696,402,710,528 bytes free
+
+C:\Users\skull\Desktop\hacknode>code .
+
+C:\Users\skull\Desktop\hacknode>
